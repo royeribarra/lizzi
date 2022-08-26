@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import './assets/css/style.css';
+import './assets/css/animate.css';
+import './assets/css/flexslider.css';
+import './assets/css/icomoon.css';
+import './assets/css/magnific-popup.css';
+import './assets/css/owl.theme.default.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "antd/dist/antd.css";
+
+import RegaloCompleto from './components/regaloCompleto';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Inicio from './pages/inicio';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        
+        <Routes>
+          <Route exact path="/" element={<Inicio />} />
+          <Route exact path="/regalos" element={<RegaloCompleto />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
