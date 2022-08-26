@@ -1,8 +1,8 @@
 import React from "react";
-import image1 from '../assets/images/nuevo/galeria1.jpeg';
-import image2 from '../assets/images/nuevo/galeria2.jpeg';
-import image3 from '../assets/images/nuevo/galeria3.jpeg';
-import image4 from '../assets/images/nuevo/galeria4.jpeg';
+import galeria1 from '../assets/images/nuevo/galeria1.jpeg';
+import galeria2 from '../assets/images/nuevo/galeria2.jpeg';
+import galeria3 from '../assets/images/nuevo/galeria3.jpeg';
+import galeria4 from '../assets/images/nuevo/galeria4.jpeg';
 
 function Galeria() 
 {
@@ -24,16 +24,16 @@ function Galeria()
             <ul id="fh5co-gallery-list">
               
             <li class="one-third animate-box" data-animate-effect="fadeIn">
-              <img src={image1} style={{ width: "100%"}} />
+              <img src={galeria1} style={{ width: "100%"}} />
             </li>
             <li class="one-third animate-box" data-animate-effect="fadeIn">
-              <img src={image2} style={{ width: "100%"}} />
+              <img src={galeria2} style={{ width: "100%"}} />
             </li>
             <li class="one-third animate-box" data-animate-effect="fadeIn">
-              <img src={image3} style={{ width: "100%"}} />
+              <img src={galeria3} style={{ width: "100%"}} />
             </li>
             <li class="one-third animate-box" data-animate-effect="fadeIn">
-              <img src={image4} style={{ width: "100%"}} />
+              <img src={galeria4} style={{ width: "100%"}} />
             </li>
             </ul>		
           </div>
