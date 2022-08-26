@@ -1,8 +1,8 @@
 import React from "react";
-import galeria1 from '../assets/images/nuevo/galeria1.jpeg';
-import galeria2 from '../assets/images/nuevo/galeria2.jpeg';
-import galeria3 from '../assets/images/nuevo/galeria3.jpeg';
-import galeria4 from '../assets/images/nuevo/galeria4.jpeg';
+import galeria1 from '../assets/images/nuevo/galeria1.jpg';
+import galeria2 from '../assets/images/nuevo/galeria2.jpg';
+import galeria3 from '../assets/images/nuevo/galeria3.jpg';
+import galeria4 from '../assets/images/nuevo/galeria4.jpg';
 
 function Galeria() 
 {
